@@ -9,8 +9,9 @@
 
     <ImageView
         android:id="@+id/itemImage"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
         android:layout_marginTop="8dp"
         android:adjustViewBounds="true"
         app:layout_constraintBottom_toTopOf="@+id/itemDate"
